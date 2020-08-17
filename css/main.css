@@ -157,7 +157,7 @@ textarea {
    /* Header styles*/
 
    header{
-    padding:15px 0;
+    padding: 15px 0;
    }
 
    header .content-wrapper{
@@ -369,6 +369,22 @@ textarea {
     margin: 0;
    }
 
+   .map figure{
+    width: 100%;
+    height: 0;
+    padding-bottom: 125%;
+    overflow: hidden;
+    position: relative;
+   }
+
+   .map iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+   }
+
    /* ==========================================================================
    FAQ Page
    ========================================================================== */
@@ -516,7 +532,7 @@ textarea {
   }
 
   header .content-wrapper{
-    width:100;
+    width: 100%;
     justify-content: space-between;
   }
 
@@ -525,7 +541,7 @@ textarea {
   }
 
   header nav{
-    width:20%;
+    width: 20%;
   }
 
   header nav ul{
